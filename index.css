@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    max-width: 1140px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.header {
+    width: 100%;
+    color: white;
+    padding: 20px;
+    background: #151c39;
+    box-sizing: border-box;
+}
+
+.menu-item {
+    list-style: none;
+}
+
+.menu-link {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.banner-title {
+    text-align: left;
+    color: wheat;
+    font-size: 48px;
+}
+
+.banner-description {
+    text-align: right;
+    color: wheat;
+}
+
+.banner-section {
+    padding: 100px 0;
+    background: url(img/banner-bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.cards-section {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.cards {
+    display: inline-block;
+    width: 20%;
+    margin: 0 10px;
+    vertical-align: top;
+}
+
+.card {
+    padding: 20px;
+    margin-top: 20px;
+    background: white;
+    box-shadow: 0px 2px 7px 2px #9c90ff;
+    box-sizing: border-box;
+}
+
+.card-button {
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    background: #151c39;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.card-button:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.card-text {
+    flex-grow: 1;
+    margin-bottom: 20px;
+}
+
+.footer {
+    background: url(img/footer-bg.jpg);
+    background-size: cover;
+    padding: 50px 0;
+}
+
+.copyright {
+    color: white;
+}
+
+.card-link {
+    color: white;
+    text-decoration: none;
+}
+
+.card-link:hover {
+    text-decoration: none;
+    color: white;
+}
+
+
+.banner-section {
+    padding: 20px; /* Добавьте отступы для контейнера баннера */
+    background: url(img/banner-bg.jpg); /* Фоновое изображение */
+    background-size: cover;
+    background-position: center;
+    display: flex; /* Используем Flexbox для позиционирования блоков */
+    align-items: center; /* Выравнивание по вертикали */
+}
+
+/* ... */
+.banner-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-side, .right-side {
+    text-decoration: none;
+    color: wheat;
+    font-weight: bold;
+
+
+}
+.left-side {
+    border-left: 4px solid rgba(255, 255, 255, 0.5);
+    padding-left: 15px; /* Измените это значение на то, которое подходит вам лучше */
+}
+.spacer {
+    width: 50px; /* Измените это значение для нужного вам отступа */
+    display: inline-block; 
+}
+.right-side {
+    border-left: 4px solid rgba(255, 255, 255, 0.5);
+    padding-left: 15px; /* Измените это значение на то, которое подходит вам лучше */
+}
